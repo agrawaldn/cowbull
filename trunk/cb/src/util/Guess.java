@@ -4,12 +4,18 @@
  */
 package util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Guess {
 	private int[] guess;
 	private int bulls;
 	private int cows;
 	
+	public Guess(){
+		guess = new int[Util.NUMLENGTH];
+	}
 	public Guess(int[] guess){
 		this.guess = guess;
 	}
@@ -24,6 +30,9 @@ public class Guess {
 	 */
 	public int[] getGuess() {
 		return guess;
+	}
+	public int getNumber(){
+		return guess[0]*1000+guess[1]*100+guess[2]*10+guess[3];
 	}
 	/**
 	 * @param bulls the bulls to set
@@ -48,5 +57,40 @@ public class Guess {
 	 */
 	public int getCows() {
 		return cows;
+	}
+	public int getCowsAndBulls(){
+		return getCows()+getBulls();
+	}
+	public int getPosition(int number){
+		int position = -1;
+		for(int i=0;i<guess.length;i++){
+			if(guess[i]==number){
+				position = i;
+			}
+		}
+		return position;
+	}
+	public List<Digit> getDigitList(){
+		List<Digit> digitList = new ArrayList<Digit>();
+		for(int i=0;i<guess.length;i++){
+			Digit d = new Digit();
+			d.setDigit(guess[i]);
+			int overAllChance = getCowsAndBulls()*25;
+			d.setOverAllChance(overAllChance);
+			int bulls = getBulls();
+			if(bulls == 0){
+				d.setChance(i, 0);
+			}else{
+				d.setChance(i, (int)overAllChance*bulls/getCowsAndBulls());
+			}
+			digitList.add(d);
+		}
+		return digitList;
+	}
+	public void insertDigit(int position, int digit){
+		guess[position] = digit;
+	}
+	public void insertDigit(int digit){
+		
 	}
 }
