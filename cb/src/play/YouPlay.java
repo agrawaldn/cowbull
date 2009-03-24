@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import util.Util;
 
 public class YouPlay {
-	private BufferedReader br= new BufferedReader(new InputStreamReader(System.in));;
+	private BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 	private Util tester = new Util();
 	private int[] number = tester.thinkNumber();
 	
