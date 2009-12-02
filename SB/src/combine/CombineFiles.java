@@ -18,15 +18,25 @@ import org.apache.log4j.Logger;
 public class CombineFiles {
 
 	Logger logger = Logger.getLogger(getClass());
-	public static final String INPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\order_canto1.txt";
-	public static final String OUTPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\final\\canto1.html";
+	public static final String INPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\order_canto";
+	public static final String OUTPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\final\\canto";
 	public static final String INPUT_DIR = "C:\\dagrawal\\personal\\httrac\\SB\\output\\";
 	public CombineFiles(){
+		for(int i=1;i<=10;i++){
+			combine(i);
+		}
+	}
+	public CombineFiles(int canto){
+		combine(canto);
+	}
+	private void combine(int canto){
 		BufferedReader in = null;
+		
 		try {
-			in = new BufferedReader(new FileReader(INPUT_FILE));
-			FileOutputStream fout = new FileOutputStream (OUTPUT_FILE);
+			in = new BufferedReader(new FileReader(INPUT_FILE+canto+".txt"));
+			FileOutputStream fout = new FileOutputStream (OUTPUT_FILE+canto+".html");
 			PrintStream out = new PrintStream(fout);
+			logger.info("Generating file "+OUTPUT_FILE+canto+".html");
 			doTheJob(in, out);
 		} catch (IOException e) {
 			logger.error(e.getMessage());
@@ -39,9 +49,9 @@ public class CombineFiles {
 		}
 	}
 	
-	public void doTheJob(BufferedReader in, PrintStream out) throws IOException{
+	private void doTheJob(BufferedReader in, PrintStream out) throws IOException{
 		out.println("<head>");
-		out.println("<link rel=\"stylesheet\" href=\"folio_unicode.css\" type=\"text/css\"></link>");
+		out.println("<link rel=\"stylesheet\" href=\"doc.css\" type=\"text/css\"></link>");
 		out.println("</head>");
 		out.println("<body>");
 		String verseFileName = "";
@@ -62,6 +72,18 @@ public class CombineFiles {
 					verseFileName = line.split("TEXT ")[1];
 				}
 				verseFileName += ".html";
+				out.println(readContents(INPUT_DIR+verseFileName));
+			}else if(line.contains("Summary")){
+				//out.print("<div class=\"Textnum\">");
+				//out.print("Summary");
+				//out.println("</div>");
+				verseFileName = line+".html";
+				out.println(readContents(INPUT_DIR+verseFileName));
+			}else if(line.contains("Introduction")){
+				//out.print("<div class=\"Chapnum\">");
+				//out.print(line);
+				//out.println("</div>");
+				verseFileName = line+".html";
 				out.println(readContents(INPUT_DIR+verseFileName));
 			}
 		}
@@ -90,8 +112,7 @@ public class CombineFiles {
 		return contents;
 	}
 	public static void main(String[] args) {
-		CombineFiles cf = new CombineFiles(); 
-
+		CombineFiles cf = new CombineFiles(1); 
 	}
 
 }
