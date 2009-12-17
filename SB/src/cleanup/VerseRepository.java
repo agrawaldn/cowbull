@@ -23,19 +23,22 @@ public class VerseRepository {
 		
 	static Logger logger = Logger.getLogger(VerseRepository.class);
 	private Map<String, List<String>> sanskritMap = new TreeMap<String, List<String>>();
-	public static final String VERSES_WRITE_LOCATION = "C:\\dagrawal\\personal\\httrac\\SB\\verses.txt";
-	public static final String FINAL_VERSES_FOR_READ = "C:\\dagrawal\\personal\\httrac\\SB\\verses1-10.txt";
+	public static final String VERSES_WRITE_LOCATION = "C:\\dagrawal\\workspace\\SB\\Verses\\verses1-9.txt";
+	
+	/*This is the the input file for creating verse repository "sanskritMap"
+	 */
+	public static final String FINAL_VERSES_FOR_READ = "C:\\dagrawal\\workspace\\SB\\Verses\\verses.txt";
 	public enum SBFile{
-		Canto1			(1,"C:\\dagrawal\\personal\\httrac\\SB\\Canto1.txt"),
-		Canto2			(2,"C:\\dagrawal\\personal\\httrac\\SB\\Canto2.txt"),
-		Canto3			(3,"C:\\dagrawal\\personal\\httrac\\SB\\Canto3.txt"),
-		Canto4			(4,"C:\\dagrawal\\personal\\httrac\\SB\\Canto4.txt"),
-		Canto5			(5,"C:\\dagrawal\\personal\\httrac\\SB\\Canto5.txt"),
-		Canto6			(6,"C:\\dagrawal\\personal\\httrac\\SB\\Canto6.txt"),
-		Canto7			(7,"C:\\dagrawal\\personal\\httrac\\SB\\Canto7.txt"),
-		Canto8			(8,"C:\\dagrawal\\personal\\httrac\\SB\\Canto8.txt"),
-		Canto9			(9,"C:\\dagrawal\\personal\\httrac\\SB\\Canto9.txt");
-//		Canto10			(10,"C:\\dagrawal\\personal\\httrac\\SB\\Canto10.txt");
+		Canto1			(1,"C:\\dagrawal\\workspace\\SB\\text\\Canto1.txt"),
+		Canto2			(2,"C:\\dagrawal\\workspace\\SB\\text\\Canto2.txt"),
+		Canto3			(3,"C:\\dagrawal\\workspace\\SB\\text\\Canto3.txt"),
+		Canto4			(4,"C:\\dagrawal\\workspace\\SB\\text\\Canto4.txt"),
+		Canto5			(5,"C:\\dagrawal\\workspace\\SB\\text\\Canto5.txt"),
+		Canto6			(6,"C:\\dagrawal\\workspace\\SB\\text\\Canto6.txt"),
+		Canto7			(7,"C:\\dagrawal\\workspace\\SB\\text\\Canto7.txt"),
+		Canto8			(8,"C:\\dagrawal\\workspace\\SB\\text\\Canto8.txt"),
+		Canto9			(9,"C:\\dagrawal\\workspace\\SB\\text\\Canto9.txt");
+//		Canto10			(10,"C:\\dagrawal\\workspace\\SB\\text\\Canto10.txt");
 		
 		int canto;
 		String fileLocation;
@@ -184,6 +187,10 @@ public class VerseRepository {
 			}
 		}
 	}
+	/**
+	 * This method reads the SB text files and extracts 
+	 * devanagri verses from it and saves in VERSES_WRITE_LOCATION 
+	 */
 	public static void seperateSanskritVerses(){
 		VerseRepository vr = new VerseRepository();
 		FileOutputStream fout = null;

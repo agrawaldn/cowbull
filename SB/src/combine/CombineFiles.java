@@ -18,9 +18,12 @@ import org.apache.log4j.Logger;
 public class CombineFiles {
 
 	Logger logger = Logger.getLogger(getClass());
-	public static final String INPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\order_canto";
-	public static final String OUTPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\final\\canto";
-	public static final String INPUT_DIR = "C:\\dagrawal\\personal\\httrac\\SB\\output\\";
+	//location of the order file eg. order_canto1.txt
+	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\order_canto";
+	//output file eg. canto1.html
+	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto";
+	//location where all the individual SB html files are stored. This was output of Cleanuphtml.java
+	public static final String INPUT_DIR = "C:\\dagrawal\\workspace\\SB\\input\\";
 	public CombineFiles(){
 		for(int i=1;i<=10;i++){
 			combine(i);
@@ -97,6 +100,7 @@ public class CombineFiles {
 			in = new BufferedReader(new FileReader(filePath));
 			while ((line = in.readLine()) != null) {
 				contents.append(line);
+				contents.append("\n");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -112,7 +116,7 @@ public class CombineFiles {
 		return contents;
 	}
 	public static void main(String[] args) {
-		CombineFiles cf = new CombineFiles(1); 
+		CombineFiles cf = new CombineFiles(2); 
 	}
 
 }

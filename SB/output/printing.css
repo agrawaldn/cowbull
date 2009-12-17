@@ -1,0 +1,595 @@
+A:link { TEXT-DECORATION: none; color:black;}
+A:visited {text-decoration: none; color:black;}
+A:active {text-decoration: none; color:black;}
+.Collection  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 12pt;
+  text-align : center;  margin-top: 0.25in;  margin-bottom: 0.25in;  background-color: rgb( 192,192,192);}
+.Writings  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 14pt;
+  color: rgb( 0,0,128);  text-align : center;  margin-top: 0.375in;  margin-left: 1in;  margin-right: 1in;  background-color: rgb( 0,255,255);}
+.Book  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 128,0,0);  text-align : right;}
+.Canto  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 128,64,64);  text-align : right;}
+.Section  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 0,64,128);  text-align : right;  margin-top: 0.25in;  margin-bottom: 0.25in;}
+.Chapter  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 0,64,128);  text-align : right;}
+.Verse-Number  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 0,128,0);  text-align : right;}
+.Verse-Section  {
+  font-weight: bold; font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Verse-Text  {
+  font-style:italic;  font-family: Tamal;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : center;}
+.Normal-Level  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-bottom: 0.0597222in;  text-indent: 0.25in;}
+.1CDM  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  margin-top: 0.0833333in;  margin-bottom: 0.0833333in;}
+.2_Contents  {
+  font-family: ScaTimes;
+  font-size: 8pt;
+  margin-left: 0.5in;  margin-right: 0.5in;  text-indent: -0.420139in;  background-color: rgb( 255,255,255);}
+.2-inch-indent  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-left: 2in;}
+.After-Verse  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-top: 0.0618056in;  margin-bottom: 0.0618056in;}
+.Audio-Bg  {
+  font-family: Terminal;
+  font-size: 6pt;
+  background-color: rgb( 255,255,0);  text-align : center;  margin-top: 0.25in;  background-color: rgb( 255,255,255);}
+.Author  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.25in;}
+.Body-Text-2  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+}
+.Book-Title  {
+  font-weight: bold;
+  font-family: ScaTimes;
+  font-size: 14pt;
+  color: rgb( 0,128,128);  background-color: rgb( 255,255,255);  text-align : center;  margin-top: 0.375in;  margin-left: 1in;  margin-right: 1in;}
+.Cantonum  {
+  font-weight: bold;
+  font-family: Tamal;
+  font-size: 14pt;
+  color: rgb( 255,255,255);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( 0,128,128);}
+.CD-Main-Heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 12pt;
+  color: rgb( 255,0,0);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( 192,192,192);}
+.CDM-Heading  {
+  font-weight: bold;
+  font-size: 11pt;
+  color: rgb( 0,0,0);  text-align : center;  margin-top: 0.0833333in;  margin-bottom: 0.0833333in;  margin-left: 0.5in;  text-indent: -0.5in;  background-color: rgb( 0,255,255);}
+.CD-Sub2-Heading  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : center;  background-color: rgb( 255,255,0);}
+.CD-Sub3-Title  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.CD-Sub-Heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 11pt;
+  text-align : center;  background-color: rgb( 0,255,255);}
+.CD-Track-Heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 128,0,0);  text-align : center;  background-color: rgb( 255,255,0);}
+.Center  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Center-Bold  {
+  font-weight: bold;
+  font-family: Helv;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.5in;  margin-bottom: 0.125in;}
+.Center-Bold  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Centered-Verse-in-purp  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;}
+.chapnum  {
+  font-weight: bold;
+  font-family: Tamal;
+  font-size: 11pt;
+  background-color: rgb( 192,192,192);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( 192,192,192);}
+.Chapter-Desc  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 11pt;
+  color: rgb( 255,255,255);  text-align : center;  margin-top: 0.375in;  margin-bottom: 0.375in;  background-color: rgb( 0,128,128);}
+.Chrono-Month  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-bottom: 0.125in;  margin-left: 0.25in;  background-color: rgb( 255,255,0);}
+.Chrono-Text  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 255,255,255);  margin-left: 0.125in;}
+.Chrono-Text-Bold  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 255,255,0);  margin-left: 0.125in;}
+.Chrono-Year  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 12pt;
+  color: rgb( 255,255,0);  background-color: rgb( 0,0,255);  text-align : center;  background-color: rgb( 0,0,128);}
+.City-code  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 2pt;
+  color: rgb( 0,128,128);  text-align : right;}
+.Compilation_Ch_Heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 11pt;
+  color: rgb( 255,255,0);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( 0,128,128);}
+.Conv-code  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  text-align : right;  margin-top: 0.125in;  margin-bottom: 0.25in;}
+.Conversation  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-bottom: 0.0597222in;}
+.Dear  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-bottom: 0.125in;}
+.Devanagari  {
+  font-weight: bold;
+  font-family: Indevr;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : center;}
+.-Devanagari  {
+  font-weight: bold;
+  font-family: RM Devanagari;
+  font-size: 8pt;
+  color: rgb( 128,0,0);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.184722in;}
+.dev-rm  {
+  font-weight: bold;	
+  font-family: RM Devanagari;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : center;  }
+.First  {
+  font-family: Tamal;
+  font-size: 8pt;
+  text-align : justify;  margin-bottom: 0.0597222in;  text-indent: 0.25in;}
+.Flush-Left  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;}
+.Head  {
+  font-family: Tamalten;
+  font-size: 22pt;
+  text-align : center;  margin-bottom: 0.416667in;}
+.Header1  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-bottom: 0.25in;}
+.header2  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.375in;  margin-bottom: 0.125in;}
+.header3  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-bottom: 0.125in;  margin-left: 0.0138889in;  margin-right: 0.388889in;  text-indent: 0.708333in;}
+.header4  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Headersheet  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 10pt;
+  text-align : center;  margin-top: 0.0833333in;  margin-bottom: 0.0833333in;}
+.Headersheet-xtra  {
+  font-weight: bold;
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 10pt;
+  color: rgb( 0,0,128);  text-align : center;  margin-top: 0.208333in;  margin-bottom: 0.125in;  background-color: rgb( 255,255,0);}
+.Heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 10pt;
+  color: rgb( 0,255,255);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.25in;  background-color: rgb( 0,128,0);}
+.Heading3  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 11pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( 0,255,255);}
+.Heading4  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 11pt;
+  color: rgb( 128,0,0);  margin-top: 0.125in;  margin-bottom: 0.00972222in;  background-color: rgb( 192,192,192);}
+.Heading---Author-by-  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 10pt;
+  color: rgb( 0,0,128);  margin-top: 0.125in;  margin-bottom: 0.125in;  text-indent: 0.25in;  background-color: rgb( 192,192,192);}
+.Indented  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-left: 1in;  text-indent: -1in;}
+.Indented-2  {
+  font-family: Helv;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-bottom: 0.125in;  margin-left: 2in;}
+.Insert  {
+  font-family: Helv;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.25in;  margin-bottom: 0.25in;  margin-left: 2in;  margin-right: 2in;}
+.Italic  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  text-indent: 0.25in;}
+.Labels  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.0430556in;  margin-bottom: 0.0430556in;  margin-left: 0.1in;}
+.Lecture  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-indent: 0.25in;}
+.Lecture-code  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 5pt;
+  text-align : right;}
+.Letter  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-bottom: 0.0597222in;  text-indent: 0.25in;}
+.Letter-code  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+}
+.LetterFrom  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.25in;  margin-bottom: 0.125in;}
+.Letter-Heading  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.25in;}
+.LetterTo  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.25in;  margin-bottom: 0.125in;}
+.Letter-To  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+}
+.List  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-left: 0.5in;}
+.List-1  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  color: rgb( 0,0,0);  margin-top: 0.0701389in;  margin-left: 0.520139in;  text-indent: -0.25in;}
+.Mahamantra  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Ministry-Headings  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 12pt;
+  color: rgb( 0,255,255);  text-align : center;  margin-top: 0.0833333in;  margin-bottom: 0.0833333in;}
+.Notes  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  text-indent: 0.25in;}
+.One-line-verse  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;}
+.One-line-verse-in-purp  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;}
+.Phil-code  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  text-align : right;  margin-top: 0.125in;  margin-bottom: 0.25in;}
+.Poem  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-left: 2in;}
+.Prose-Dev  {
+  font-weight: bold;
+  font-family: Indevr;
+  font-size: 8pt;
+  color: rgb( 128,0,0);  text-align : center;  margin-bottom: 0.25in;  margin-left: 0.25in;}
+.ProseVerse  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-indent: 0.174306in;}
+.Prose-Verse  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-left: 0.174306in;}
+.Prose-Verse-in-purp  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  margin-top: 0.125in;  text-indent: 0.174306in;}
+.Purple_BG_Translations  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Purport  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-bottom: 0.0597222in;  text-indent: 0.25in;}
+.Purport_Text  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-top: 0.125in;  text-indent: 0.25in;}
+.Purp-para  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-bottom: 0.0597222in;}
+.Quote  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-top: 0.125in;  margin-bottom: 0.125in;  text-indent: 0.25in;}
+.quoted-para  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  text-align : justify;  margin-top: 0.125in;  margin-bottom: 0.125in;  margin-left: 0.25in;  margin-right: 0.25in;}
+.quote-para  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-top: 0.125in;  margin-bottom: 0.125in;  margin-left: 0.25in;  margin-right: 0.25in;}
+.ref  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : right;  margin-bottom: 0.25in;}
+.Reference  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : right;  margin-bottom: 0.25in;  margin-right: 0.5in;}
+.Reference_Right  {
+  font-style:italic;  font-family: ScaTimes;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  background-color: rgb( 255,255,255);  text-align : right;  margin-bottom: 0.125in;  margin-right: 0.5in;}
+.Right  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : right;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Runin  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : justify;  margin-top: 0.125in;  margin-bottom: 0.125in;  text-indent: 0.25in;}
+.SideA&B  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.0833333in;  margin-bottom: 0.0833333in;}
+.Sincerely  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 64,128,128);  margin-left: 0.25in;}
+.Songs-VerNum  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.25in;}
+.Songs-Verse  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Spec-Translation  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 128,0,0);  margin-top: 0.125in;}
+.Subheading  {
+  font-weight: bold;
+  font-family: Tms Rmn;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Sub-heading  {
+  font-weight: bold;
+  font-family: Helv;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Subtitle  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Synonyms  {
+  font-family: Tamal;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : justify;  margin-bottom: 0.125in;}
+.Synonyms-SA  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;}
+.Synonyms-Section  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  text-align : center;  margin-top: 0.25in;  margin-bottom: 0.125in;}
+.Textnum  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  background-color: rgb( 255,255,255);  text-align : center;}
+.Text-Section  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 128,0,0);  text-align : right;}
+.Thus-end  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.25in;}
+.Titles  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,128,0);  text-align : center;  margin-top: 0.25in;  margin-bottom: 0.125in;}
+.TKQ/TLK-Translation  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,128);  text-align : justify;  margin-top: 0.25in;  margin-bottom: 0.125in;  margin-left: 0.25in;  margin-right: 0.25in;  text-indent: 0.25in;}
+.TLK/TQK-SB-heading  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,128,0);  background-color: rgb( 255,255,0);  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;  background-color: rgb( DC);}
+.TQK/TLK-Ref  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : right;  margin-top: 0.0201389in;  margin-bottom: 0.25in;  margin-left: 0.75in;  margin-right: 1.25in;}
+.Translation  {
+  font-weight: bold;
+  font-family: Tamal;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  margin-top: 0.025in;  margin-bottom: 0.025in;  text-indent: 0.25in;}
+.Madhu  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,128);  margin-top: 0.025in;  margin-bottom: 0.025in;  text-indent: 0.25in;}
+.Uvaca-line  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;}
+.Uvaca-line-in-purp  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+}
+.Verse  {
+  font-style:italic;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Verse-English  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  margin-top: 0.125in;  margin-bottom: 0.125in;}
+.Verse-in-purp  {
+  font-style:italic;  font-family: Tamal;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.05in;  margin-bottom: 0.05in;}
+.Verse-Num  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-top: 0.25in;}
+.Verse-Number-Heading  {
+  visibility: hidden;  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 0,128,0);  text-align : right;  margin-top: 0.125in;}
+.VerseRef  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  text-align : center;  margin-left: 0.5in;}
+.Bold  {
+  font-weight: bold;
+}
+.Bold  {
+  font-weight: bold;
+}
+.Bold-Underline  {
+  font-weight: bold;
+}
+.CDM12  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 0,0,0);  background-color: rgb( DC);}
+.code  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 5pt;
+}
+.footnote-reference  {
+  font-size: 6pt;
+}
+.Italic  {
+  font-style:italic;}
+.Italic  {
+  font-style:italic;}
+.Letter-Ref  {
+}
+.non-Italic  {
+}
+.Note-Num  {
+  font-weight: bold;
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 255,0,0);  background-color: rgb( DC);}
+.Search-Heading  {
+  font-family: Lucida Sans Unicode,Tahoma;
+  font-size: 6pt;
+  color: rgb( 255,0,0);  background-color: rgb( DC);}
+.Ref_Italic  {
+  font-style:italic;}
+.Siksamrta  {
+  font-family: Georgia Ref Plus,Georgia,Lucida Sans Unicode,Tahoma;
+  font-size: 8pt;
+  color: rgb( 128,0,0);  background-color: rgb( 255,255,0);}
+.highlight
+{
+background-color:#87CEEB
+}
+
+.highlight-group
+{
+background-color:#98FB98
+} 
+  
+  .Vaisesika-sutras  {
+}
+.  {
+}
