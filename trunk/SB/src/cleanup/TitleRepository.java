@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 public class TitleRepository {
 
 	Logger logger = Logger.getLogger(getClass());
-	public static final String TITLES_FOR_READ = "C:\\dagrawal\\personal\\httrac\\SB\\titles.txt";
+	public static final String TITLES_FOR_READ = "C:\\dagrawal\\workspace\\SB\\text\\titles.txt";
 	private Map<String, String> titleMap = new TreeMap<String, String>();
 	
 	public TitleRepository(){

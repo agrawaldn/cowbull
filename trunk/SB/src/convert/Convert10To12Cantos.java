@@ -10,15 +10,17 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 
 public class Convert10To12Cantos {
 	Logger logger = Logger.getLogger(getClass());
 	public static final int MAX_QUOTED_VERSE_LENGTH = 52;
-	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\canto10_part2.txt";
-	public static final String OUTPUT_FILE = "C:\\dagrawal\\personal\\httrac\\SB\\final\\canto10_part2.html";
+	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\canto12.txt";
+	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto12.html";
 	boolean divTagOpen = false;
 	
 	public Convert10To12Cantos(){
@@ -45,6 +47,7 @@ public class Convert10To12Cantos {
 		List<String> quotedVerse = new ArrayList<String>();
 		int lengthPreviousLine = 0,lengthCurrentLine;
 		String section = "";
+		String text = "";
 		out.println("<head>");
 		out.println("<link rel=\"stylesheet\" href=\"printing.css\" type=\"text/css\"></link>");
 		out.println("</head>");
@@ -66,13 +69,17 @@ public class Convert10To12Cantos {
 				divTagOpen = true;
 				section = "";
 			}else if(line.startsWith("TEXT")){
+				text = line;
 				logger.debug(line);
-				printParagraph(quotedVerse,100,lengthPreviousLine,line,out,"Textnum",true);
-				out.println("</div>");
-				divTagOpen = false;
+				//printParagraph(quotedVerse,100,lengthPreviousLine,line,out,"Textnum",true);
+				printParagraph(quotedVerse,100,lengthPreviousLine,null,out,null,true);
+				if(divTagOpen){
+					out.println("</div>");
+					divTagOpen = false;
+				}
 				section = "VERSE"; 
 			}else if(line.startsWith("SYNONYMS")){
-				printVerse(verse, out);
+				printVerse(verse, out, text);
 				verse = new ArrayList<String>();
 				out.print("<div class=\"Synonyms-Section\">");
 				out.print(line);
@@ -156,10 +163,14 @@ public class Convert10To12Cantos {
 					out.println("</div>");
 					divTagOpen = false;
 				}
-				out.print("<div class=\""+nextDivClass+"\">");
-				divTagOpen = true;
+				if(nextDivClass!=null){
+					out.print("<div class=\""+nextDivClass+"\">");
+					divTagOpen = true;
+				}
 			}
-			out.print(escapeHTMLCharacters(line));
+			if(line != null){
+				out.print(escapeHTMLCharacters(line));
+			}
 		}
 	}
 	private boolean shortLineInEnglish(String line){
@@ -179,19 +190,39 @@ public class Convert10To12Cantos {
 		}
 		return shortLineInEnglish;
 	}
-	private void printVerse(List<String> verse,PrintStream out){
+	private void printVerse(List<String> verse,PrintStream out, String text){
+		Map<Integer,String> lineNoVerseMap = new HashMap<Integer,String>();
 		int lines = verse.size();
 		if(lines%2>0){
-			logger.error("Number of lines in Shloka = "+lines);
+			logger.error("Number of lines in Shloka "+text+" = " +lines);
+			System.exit(1);
 		}
+		String verseNo = text.split(" ")[1];
+//		if(text.contains("TEXTS")){
+//			String[] startEndPair = verseNo.split("-");
+//			int noOfVerses = Integer.parseInt(startEndPair[1])-Integer.parseInt(startEndPair[0])+1;
+//			int linesInEachVerse = (lines/2)/noOfVerses;
+//			for(int j=1;j<=noOfVerses;j++){
+//				lineNoVerseMap.put(j*linesInEachVerse-1, ""+(Integer.parseInt(startEndPair[0])+(j-1)));
+//			}
+//		}else{
+			lineNoVerseMap.put(lines/2-1, verseNo);
+//		}
 		for(int i=0;i<lines;i++){
 			if(i<lines/2){
 				out.print("<div class=\"dev-rm\">");
-			}else{
-				out.print("<div class=\"Verse-Text\">");
+				out.print(verse.get(i));
+				if(lineNoVerseMap.containsKey(i)){
+					out.print(" // "+lineNoVerseMap.get(i)+" //");	
+				}
+				out.println("</div>");
 			}
-			out.print(verse.get(i));
-			out.println("</div>");
+//			else{
+//				out.print("<div class=\"Verse-Text\">");
+//				out.print(verse.get(i));
+//				out.println("</div>");
+//			}
+
 		}
 	}
 	private String escapeHTMLCharacters(String text){

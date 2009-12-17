@@ -77,6 +77,13 @@ public class Cleanuphtml {
 		}
 		return verseNumber;
 	}
+	/**
+	 * This method reads the html files downloaded and saves only individual SB verses
+	 * with appropriate name. It also adds the devanagri verse at apropriate places
+	 * @param inFile - input file
+	 * @param outDir - directory where the output files will be saved.
+	 * @throws IOException
+	 */
 	public void cleanUp(File inFile, String outDir) throws IOException{
 		BufferedReader in = null;
 		boolean actualText = false;
