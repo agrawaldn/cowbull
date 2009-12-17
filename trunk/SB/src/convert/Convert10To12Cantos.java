@@ -169,7 +169,7 @@ public class Convert10To12Cantos {
 				}
 			}
 			if(line != null){
-				out.print(escapeHTMLCharacters(line));
+				out.print(escapeHTMLCharacters(" "+line));
 			}
 		}
 	}
@@ -181,6 +181,11 @@ public class Convert10To12Cantos {
 				line.matches(".+\\.\"")||
 				line.matches(".+\\.'\"")||
 				line.matches(".+\\.' \"")||
+				line.matches(".+\\?")||
+				line.matches(".+\\?'")||
+				line.matches(".+\\?\"")||
+				line.matches(".+\\?'\"")||
+				line.matches(".+\\?' \"")||
 				line.matches(".+\\!")||
 				line.matches(".+\\!\"")||
 				line.matches(".+\\!'")||

@@ -54,7 +54,7 @@ public class CombineFiles {
 	
 	private void doTheJob(BufferedReader in, PrintStream out) throws IOException{
 		out.println("<head>");
-		out.println("<link rel=\"stylesheet\" href=\"doc.css\" type=\"text/css\"></link>");
+		out.println("<link rel=\"stylesheet\" href=\"print.css\" type=\"text/css\"></link>");
 		out.println("</head>");
 		out.println("<body>");
 		String verseFileName = "";
@@ -99,13 +99,17 @@ public class CombineFiles {
 		try {
 			in = new BufferedReader(new FileReader(filePath));
 			while ((line = in.readLine()) != null) {
-				contents.append(line);
-				contents.append("\n");
+				//exclude line starting with <A NAME= and sanskrit transliterian
+				if(!line.startsWith("<A NAME") && !line.startsWith("<div class=\"Verse-Text\">") 
+						&& !line.startsWith("<div class=\"One-line-verse\">") && !line.startsWith("<div class=\"Uvaca-line\">")){
+					contents.append(line);
+					contents.append("\n");
+				}
 			}
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			logger.error(e.getMessage()+" "+filePath);
 		} catch(IOException ioe){
-			ioe.printStackTrace();
+			logger.error(ioe.getMessage()+" "+filePath);
 		} finally{
 			try {
 				in.close();
@@ -116,7 +120,9 @@ public class CombineFiles {
 		return contents;
 	}
 	public static void main(String[] args) {
-		CombineFiles cf = new CombineFiles(2); 
+		for(int i=1;i<=10;i++){
+			CombineFiles cf = new CombineFiles(i);
+		}
 	}
 
 }

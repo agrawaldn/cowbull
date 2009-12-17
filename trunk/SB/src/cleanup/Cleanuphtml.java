@@ -122,7 +122,7 @@ public class Cleanuphtml {
 					}
 				}
 				//save this line in the new file
-				else if(!line.contains("<div class=\"Search-Heading\"") && !line.contains("Link to this page:") && !line.equals("<div class=\"Text-Section\">TEXT</div>")){
+				else if(!line.contains("<div class=\"Search-Heading\"") && !line.contains("Link to this page:") && !line.startsWith("<A NAME=") && !line.equals("<div class=\"Text-Section\">TEXT</div>")){
 					ps.println(line);
 					if(line.contains("<div class=\"Textnum\">") && verseNumber != null){
 						List<String> sanskritVerses = verseRepository.getSanskritVerse(verseNumber);
