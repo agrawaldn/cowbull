@@ -19,8 +19,8 @@ import org.apache.log4j.Logger;
 public class Convert10To12Cantos {
 	Logger logger = Logger.getLogger(getClass());
 	public static final int MAX_QUOTED_VERSE_LENGTH = 52;
-	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\canto12.txt";
-	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto12.html";
+	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\canto10_part2.txt";
+	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto10_part2.html";
 	boolean divTagOpen = false;
 	
 	public Convert10To12Cantos(){
@@ -49,7 +49,7 @@ public class Convert10To12Cantos {
 		String section = "";
 		String text = "";
 		out.println("<head>");
-		out.println("<link rel=\"stylesheet\" href=\"printing.css\" type=\"text/css\"></link>");
+		out.println("<link rel=\"stylesheet\" href=\"print.css\" type=\"text/css\"></link>");
 		out.println("</head>");
 		out.println("<body>");
 		String line;
