@@ -29057,18 +29057,12 @@ iNav*taTazOEåPaGaqYaMaaNaad(
 k- otaMaëaek-Gau<aaNauvadaTa(
 PauMaaNa( ivrJYaeTa ivNaa PaéuganaTa( )) 4 ))
 TEXT 10.1.5-7
-iPaTaaMaha Mae SaMare_MarÅYaE‚
-deRvv]TaaÛaiTarQaEiSTaiMai(r)lE/" )
-durTYaYa& k-aErvSaENYaSaaGar&
-k*-TvaTarNa( vTSaPad& SMa YaTâva" )) 5 ))
-d]aE<YañivPlu=íiMad& Mad(r)&
-SaNTaaNabqJa& ku-åPaa<@vaNaaMa( )
-JauGaaePa ku-i+a& GaTa Aatac§-ae
-MaaTauê Mae Ya" Xar<a& GaTaaYaa" )) 6 ))
-vqYaaRi<a TaSYaai%l/deh>aaJaa‚
-MaNTabRih" PaUåzk-al/æPaE" )
-Pa[YaC^Taae Ma*TYauMauTaaMa*Ta& c
-MaaYaaMaNauZYaSYa vdSv ivÜNa( )) 7 ))
+iPaTaaMaha Mae SaMare_MarÅYaE‚ deRvv]TaaÛaiTarQaEiSTaiMai(r)lE/" )
+durTYaYa& k-aErvSaENYaSaaGar& k*-TvaTarNa( vTSaPad& SMa YaTâva" )) 5 ))
+d]aE<YañivPlu=íiMad& Mad(r)& SaNTaaNabqJa& ku-åPaa<@vaNaaMa( )
+JauGaaePa ku-i+a& GaTa Aatac§-ae MaaTauê Mae Ya" Xar<a& GaTaaYaa" )) 6 ))
+vqYaaRi<a TaSYaai%l/deh>aaJaa‚ MaNTabRih" PaUåzk-al/æPaE" )
+Pa[YaC^Taae Ma*TYauMauTaaMa*Ta& c MaaYaaMaNauZYaSYa vdSv ivÜNa( )) 7 ))
 TEXT 10.1.8
 raeih<YaaSTaNaYa" Pa[ae¢-ae raMa" SaªzR<aSTvYaa )
 devKYaa Ga>aRSaMbNDa" ku-Taae dehaNTar& ivNaa )) 8 ))
@@ -29274,28 +29268,20 @@ oGa]SaeNa& c iPaTar& Yadu>aaeJaaNDak-aiDaPaMa( )
 SvYa& iNaGa*ù bu>auJae éUrSaeNaaNa( Mahabl/" )) 69 ))
 TEXT 10.2.1-2
 ™aIzAuk( ovaAca
-‘alambabak(caANAUr"
-ta{NAAvataRmah"AzAnaE:
-mauií"k(Air"í"iã"ivad"
-paUtanaAke(zAIDaenaukE(:
-@nyaEêAs$aur"BaUpaAlaEr,"
-baANABaAEmaAid"iBayauRta:
-yaäU"naAM k(d"naM ca‚e(
-balaI maAgADas$aM™aya:
+‘alambabak(caANAUr" ta{NAAvataRmah"AzAnaE: /
+mauií"k(Air"í"iã"ivad" paUtanaAke(zAIDaenaukE(: // 1 //
+@nyaEêAs$aur"BaUpaAlaEr," baANABaAEmaAid"iBayauRta: /
+yaäU"naAM k(d"naM ca‚e( balaI maAgADas$aM™aya: // 2 //
 TEXT 10.2.3
 tae paIix"taA inaivaivazAu:
 ku(ç&paÂaAlake(k(yaAna,
 zAAlvaAna, ivad"BaARiªaSaDaAna,
 ivade"h"Ana, k(AezAlaAnaipa
 TEXT 10.2.4-5
-Wke( tamanauç&nDaAnaA
-ÁaAtaya: payauRpaAs$atae
-h"taeSau Saq%.s$au baAlaeSau
-de"vafyaA @AEƒas$aeinanaA
-s$aæamaAe vaESNAvaM DaAma
-yamanantaM ‘acaºatae
-gABaAeR baBaUva de"vafyaA
-h"SaRzAAek(ivavaDaRna:
+Wke( tamanauç&nDaAnaA ÁaAtaya: payauRpaAs$atae /
+h"taeSau Saq%.s$au baAlaeSau de"vafyaA @AEƒas$aeinanaA // 4 //
+s$aæamaAe vaESNAvaM DaAma yamanantaM ‘acaºatae /
+gABaAeR baBaUva de"vafyaA h"SaRzAAek(ivavaDaRna: // 5 //
 TEXT 10.2.6
 BagAvaAnaipa ivaìAtmaA
 ivaid"tvaA kM(s$ajaM Bayama,
@@ -29323,14 +29309,10 @@ s$avaRk(Amavare"ìr"Ima,
 DaUpaAepah"Ar"bailaiBa:
 s$avaRk(Amavar"‘ad"Ama,
 TEXT 10.2.11-12
-naAmaDaeyaAina ku(vaRinta
-sTaAnaAina ca nar"A Bauiva
-äu"gAeRita Ba‰"k(AlaIita
-ivajayaA vaESNAvaIita ca
-ku(maud"A caiNx"k(A k{(SNAA
-maADavaI k(nyake(ita ca
-maAyaA naAr"AyaNAIzAAnaI
-zAAr"de"tyaimbake(ita ca
+naAmaDaeyaAina ku(vaRinta sTaAnaAina ca nar"A Bauiva /
+äu"gAeRita Ba‰"k(AlaIita ivajayaA vaESNAvaIita ca // 11 //
+ku(maud"A caiNx"k(A k{(SNAA maADavaI k(nyake(ita ca /
+maAyaA naAr"AyaNAIzAAnaI zAAr"de"tyaimbake(ita ca // 12 //
 TEXT 10.2.13
 gABaRs$aÆÿSaRNAAÔaM vaE
 ‘aAò": s$aÆÿSaRNAM Bauiva
@@ -29485,51 +29467,32 @@ yaåU"pamainadM" yaTaA
 de"vaA: ‘aitayayauidR"vama,
 TEXT 10.3.1-5
 ™aIzAuk( ovaAca
-@Ta s$avaRgAuNAAepaeta:
-k(Ala: par"mazAAeBana:
-ya÷eRvaAjanajanmaºa<
-zAAntaºaRƒah"taAr"k(ma,
-id"zA: ‘as$aeäu"gARgAnaM
-inamaRlaAex"]gANAAed"yama,
-mah"I maËÿlaBaUiyaï"-
-paur"ƒaAma˜ajaAk(r"A
-naâ: ‘as$aªas$ailalaA
-oe"d"A jalaç&h"i™aya:
-iã"jaAilaku(las$aªaAd"-
-stavak(A vanar"Ajaya:
-vavaAE vaAyau: s$auKas$pazAR:
-pauNyagAnDavah": zAuica:
-@¢ayaê iã"jaAtaInaAM
-zAAntaAsta‡a s$aimanData
-manaAMsyaAs$ana, ‘as$aªaAina
-s$aADaUnaAmas$aur"åu"h"Ama,
-jaAyamaAnae'janae taismana,
-naeäu"äuR"näu"Baya: s$amama,
+@Ta s$avaRgAuNAAepaeta: k(Ala: par"mazAAeBana: /
+ya÷eRvaAjanajanmaºa< zAAntaºaRƒah"taAr"k(ma, // 1 //
+id"zA: ‘as$aeäu"gARgAnaM inamaRlaAex"]gANAAed"yama, /
+mah"I maËÿlaBaUiyaï"- paur"ƒaAma˜ajaAk(r"A // 2 //
+naâ: ‘as$aªas$ailalaA oe"d"A jalaç&h"i™aya: /
+iã"jaAilaku(las$aªaAd"- stavak(A vanar"Ajaya: // 3 //
+vavaAE vaAyau: s$auKas$pazAR: pauNyagAnDavah": zAuica: /
+@¢ayaê iã"jaAtaInaAM zAAntaAsta‡a s$aimanData // 4 //
+manaAMsyaAs$ana, ‘as$aªaAina s$aADaUnaAmas$aur"åu"h"Ama, /
+jaAyamaAnae'janae taismana, naeäu"äuR"näu"Baya: s$amama, // 5 //
 TEXT 10.3.6
 jagAu: ik(ªar"gAnDavaARs$a,
 tauí]"vau: is$aÜ"caAr"NAA:
 ivaâADayaRê nana{taur,"
 @ps$ar"AeiBa: s$amaM maud"A
 TEXT 10.3.7-8
-maumaucaumauRnayaAe de"vaA:
-s$aumanaAMis$a maud"AinvataA:
-mandM" mandM" jalaDar"A
-jagAjauRr"naus$aAgAr"ma
-inazAITae tamaoàU"tae
-jaAyamaAnae janaAdR"nae
-de"vafyaAM de"vaè&ipaNyaAM
-ivaSNAu: s$avaRgAuh"AzAya:
-@Aivar"As$aIâTaA ‘aAcyaAM
-id"zAInäu"ir"va pauSk(la:
+maumaucaumauRnayaAe de"vaA: s$aumanaAMis$a maud"AinvataA: /
+mandM" mandM" jalaDar"A jagAjauRr"naus$aAgAr"ma // 7 //
+inazAITae tamaoàU"tae jaAyamaAnae janaAdR"nae
+de"vafyaAM de"vaè&ipaNyaAM ivaSNAu: s$avaRgAuh"AzAya:
+@Aivar"As$aIâTaA ‘aAcyaAM id"zAInäu"ir"va pauSk(la: // 8 //
 TEXT 10.3.9-10
-tamaàu"taM baAlak(mambaujaeºaNAM
-catauBauRjaM zAÊÿgAd"Aâud"AyauDama,
-™aIvats$alaºmaM gAlazAAeiBak(AEstauBaM
-paItaAmbarM" s$aAn‰"payaAed"s$aAEBagAma,
-mah"AhR"#vaEäU"yaRik(r"Iq%ku(Nx"laitvaSaA
-pair"Sval(s$ah"›aku(ntalama,
-oÚ"Amak(AHcyaËÿd"k(ÆÿNAAid"iBar,"
-ivar"AecamaAnaM vas$aude"va Weºata
+tamaàu"taM baAlak(mambaujaeºaNAM catauBauRjaM zAÊÿgAd"Aâud"AyauDama,
+™aIvats$alaºmaM gAlazAAeiBak(AEstauBaM paItaAmbarM" s$aAn‰"payaAed"s$aAEBagAma, // 9 //
+mah"AhR"#vaEäU"yaRik(r"Iq%ku(Nx"laitvaSaA pair"Sval(s$ah"›aku(ntalama,
+oÚ"Amak(AHcyaËÿd"k(ÆÿNAAid"iBar," ivar"AecamaAnaM vas$aude"va Weºata // 10 //
 TEXT 10.3.11
 s$a ivasmayaAetPu(éaivalaAecanaAe h"ir$M
 s$autaM ivalaAefyaAnak(äu"näu"iBastad"A
@@ -29552,18 +29515,12 @@ s$a{"î"Aƒae i‡agAuNAAtmak(ma,
 tad"nau tvaM ÷‘aivaí":
 ‘aivaí" wva BaAvyas$ae
 TEXT 10.3.15-17
-yaTaemae'ivak{(taA BaAvaAs$a,
-taTaA tae ivak{(taE: s$ah"
-naAnaAvaIyaAR: pa{TagBaUtaA
-ivar"AjaM janayainta ih"
-s$aiªapatya s$amautpaAâ
-ä{"zyantae'naugAtaA wva
-‘aAgAeva ivaâmaAnatvaAna,
-na taeSaAimah" s$amBava:
-WvaM BavaAna, bauÜ"YanaumaeyalaºaNAEr,"
-ƒaA÷EgAuRNAE: s$aªaipa taÖ"NAAƒah":
-@naAva{tatvaAß"ih"r"ntarM" na tae
-s$avaRsya s$avaARtmana @Atmavastauna:
+yaTaemae'ivak{(taA BaAvaAs$a, taTaA tae ivak{(taE: s$ah"
+naAnaAvaIyaAR: pa{TagBaUtaA ivar"AjaM janayainta ih" // 15 //
+s$aiªapatya s$amautpaAâ ä{"zyantae'naugAtaA wva
+‘aAgAeva ivaâmaAnatvaAna, na taeSaAimah" s$amBava: // 16 //
+WvaM BavaAna, bauÜ"YanaumaeyalaºaNAEr," ƒaA÷EgAuRNAE: s$aªaipa taÖ"NAAƒah":
+@naAva{tatvaAß"ih"r"ntarM" na tae s$avaRsya s$avaARtmana @Atmavastauna: // 17 //
 TEXT 10.3.18
 ya @AtmanaAe ä{"zyagAuNAeSau s$aiªaita
 vyavasyatae svavyaitare"k(taAe'bauDa:
@@ -29648,27 +29605,20 @@ yauvaAM vaE “aöNAAid"í"AE
 s$aiªayamyaein‰"yaƒaAmaM
 taepaATae par"maM tapa:
 TEXT 10.3.34-35
-vaSaRvaAtaAtapaih"ma-
-GamaRk(AlagAuNAAnanau
-s$ah"maAnaAE ìAs$ar"AeDaivainaDaURtamanaAemalaAE
-zAINARpaNAARinalaAh"Ar"Ava,
-opazAAntaena caetas$aA
-maÔa: k(AmaAnaBaIps$antaAE
-mad"Ar"ADanamaIh"tau:
+vaSaRvaAtaAtapaih"ma- GamaRk(AlagAuNAAnanau
+s$ah"maAnaAE ìAs$ar"AeDaivainaDaURtamanaAemalaAE // 34 //
+zAINARpaNAARinalaAh"Ar"Ava, opazAAntaena caetas$aA
+maÔa: k(AmaAnaBaIps$antaAE mad"Ar"ADanamaIh"tau: // 35 //
 TEXT 10.3.36
 WvaM vaAM tapyataAestaI˜aM
 tapa: par"maäu"Sk(r"ma,
 id"vyavaSaRs$ah"›aAiNA
 ã"Ad"zAeyaumaRd"AtmanaAe:
 TEXT 10.3.37-38
-tad"A vaAM pair"tauí"Ae'h"ma,
-@maunaA vapauSaAnaGae
-tapas$aA ™aÜ"yaA inatyaM
-BaftyaA ca ô$id" BaAivata:
-‘aAäu"r"As$aM var"d"r"Ax".
-yauvayaAe: k(Amaid"ts$ayaA
-i˜ayataAM var" wtyaule(
-maAä{"zAAe vaAM va{ta: s$auta:
+tad"A vaAM pair"tauí"Ae'h"ma, @maunaA vapauSaAnaGae
+tapas$aA ™aÜ"yaA inatyaM BaftyaA ca ô$id" BaAivata: // 37 //
+‘aAäu"r"As$aM var"d"r"Ax". yauvayaAe: k(Amaid"ts$ayaA
+i˜ayataAM var" wtyaule( maAä{"zAAe vaAM va{ta: s$auta: // 38 //
 TEXT 10.3.39
 @jauí"ƒaAmyaivaSayaAva,
 @napatyaAE ca d"mpataI
@@ -29716,14 +29666,10 @@ s$autaM s$amaAd"Aya s$a s$aUitak(AgA{h"Ata,
 yad"A baih"gARntauimayaeSa ta÷RjaA
 yaA yaAegAmaAyaAjaina nand"jaAyayaA
 TEXT 10.3.48-49
-tayaA ô$ta‘atyayas$avaRva{iÔaSau
-ã"A:sTaeSau paAEre"Svaipa zAAiyataeSvaTa
-ã"Ar"ê s$avaAR: ipaih"taA äu"r"tyayaA
-ba{h"tk(paAq%Ayas$ak(LlaZa{"ÊÿlaE:
-taA: k{(SNAvaAhe" vas$aude"va @AgAtae
-svayaM vyavayaRnta yaTaA tamaAe r"vae:
-vavaSaR pajaRnya opaAMzAugAijaRta:
-zAeSaAe'nvagAAã"Air" inavaAr"yana, P(NAE:
+tayaA ô$ta‘atyayas$avaRva{iÔaSau ã"A:sTaeSau paAEre"Svaipa zAAiyataeSvaTa
+ã"Ar"ê s$avaAR: ipaih"taA äu"r"tyayaA ba{h"tk(paAq%Ayas$ak(LlaZa{"ÊÿlaE: // 48 //
+taA: k{(SNAvaAhe" vas$aude"va @AgAtae svayaM vyavayaRnta yaTaA tamaAe r"vae:
+vavaSaR pajaRnya opaAMzAugAijaRta: zAeSaAe'nvagAAã"Air" inavaAr"yana, P(NAE: // 49 //
 TEXT 10.3.50
 maGaAeina vaSaRtyas$ak{(âmaAnaujaA
 gAmBaIr"taAeyaAEGajavaAeimaR%Pe(inalaA
@@ -29792,14 +29738,10 @@ s$aâAe de"vyambarM" gAtaA
 @ä{"zyataAnaujaA ivaSNAAe:
 s$aAyauDaAí"mah"ABaujaA
 TEXT 10.4.10-11
-id"vya›agAmbar"Alaepar"¥
-aABar"NABaUiSataA
-Danau:zAUlaeSaucamaARis$azAÊÿca‚(
-gAd"ADar"A
-is$aÜ"caAr"NAgAnDavaE=r,"
-@ps$ar":ik(ªar"Aer"gAE:
-opaAô$taAeç&bailaiBa:
-staUyamaAnaed"ma“avaIta,
+id"vya›agAmbar"Alaepar"¥ aABar"NABaUiSataA
+Danau:zAUlaeSaucamaARis$azAÊÿca‚( gAd"ADar"A // 10 //
+is$aÜ"caAr"NAgAnDavaE=r," @ps$ar":ik(ªar"Aer"gAE:
+opaAô$taAeç&bailaiBa: staUyamaAnaed"ma“avaIta, // 11 //
 TEXT 10.4.12
 ikM( mayaA h"tayaA mand"
 jaAta: Kalau tavaAntak{(ta,
@@ -29984,14 +29926,10 @@ h"inta ™aeyaAMis$a s$avaARiNA
 pauMs$aAe mah"d"ita‚(ma:
 TEXT 10.5.1-2
 ™aIzAuk( ovaAca
-nand"stvaAtmaja otpaªae
-jaAtaAø"Ad"Ae mah"AmanaA:
-@Aó"ya iva‘aAna, vaed"ÁaAna,
-µaAta: zAuicar"lax.~k{(ta:
-vaAcaiyatvaA svastyayanaM
-jaAtak(maARtmajasya vaE
-k(Ar"yaAmaAs$a ivaiDavata,
-ipata{de"vaAcaRnaM taTaA
+nand"stvaAtmaja otpaªae jaAtaAø"Ad"Ae mah"AmanaA:
+@Aó"ya iva‘aAna, vaed"ÁaAna, µaAta: zAuicar"lax.~k{(ta: // 1 //
+vaAcaiyatvaA svastyayanaM jaAtak(maARtmajasya vaE
+k(Ar"yaAmaAs$a ivaiDavata, ipata{de"vaAcaRnaM taTaA // 2 //
 TEXT 10.5.3
 DaenaUnaAM inayautae ‘aAd"Aä,"
 iva‘aeBya: s$amalax.~k{(tae
@@ -30053,14 +29991,10 @@ d"iDaºaIr"Ga{taAmbauiBa:
 @Ais$aÂantaAe ivailampantaAe
 navanaItaEê icaiºapau:
 TEXT 10.5.15-16
-nand"Ae mah"AmanaAstaeByaAe
-vaAs$aAe'laÆÿAr"gAAeDanama,
-s$aUtamaAgADavaind"ByaAe
-yae'nyae ivaâAepajaIivana:
-taEstaE: k(AmaEr"d"InaAtmaA
-yaTaAeicatamapaUjayata,
-ivaSNAAer"Ar"ADanaATaARya
-svapau‡asyaAed"yaAya ca
+nand"Ae mah"AmanaAstaeByaAe vaAs$aAe'laÆÿAr"gAAeDanama,
+s$aUtamaAgADavaind"ByaAe yae'nyae ivaâAepajaIivana: // 15 //
+taEstaE: k(AmaEr"d"InaAtmaA yaTaAeicatamapaUjayata,
+ivaSNAAer"Ar"ADanaATaARya svapau‡asyaAed"yaAya ca // 16 //
 TEXT 10.5.17
 r"Aeih"NAI ca mah"ABaAgAA
 nand"gAAepaAiBanaind"taA
@@ -30166,14 +30100,10 @@ paUtanaA nand"gAAeku(lama,
 yaAeiSatvaA maAyayaAtmaAnaM
 ‘aAivazAtk(AmacaAir"NAI
 TEXT 10.6.5-6
-taAM ke(zAbanDavyaitaSal(maiéak(AM
-ba{h"iªatambastanak{(cC)$maDyamaAma,
-s$auvaAs$as$aM k(ilpatak(NARBaUSaNAitvaSaAeéas$
-atku(ntalamaiNx"taAnanaAma
-valgAuismataApaAËÿivas$agARvaIiºataEr,"
-manaAe h"r"ntaI%M vainataAM ˜ajaAEk(s$aAma,
-@maMs$ataAmBaAejak(re"NA è&ipaNAI%M
-gAAepya: i™ayaM ‰"í]"imavaAgAtaAM paitama,
+taAM ke(zAbanDavyaitaSal(maiéak(AM ba{h"iªatambastanak{(cC)$maDyamaAma,
+s$auvaAs$as$aM k(ilpatak(NARBaUSaNAitvaSaAeéas$ atku(ntalamaiNx"taAnanaAma // 5 //
+valgAuismataApaAËÿivas$agARvaIiºataEr," manaAe h"r"ntaI%M vainataAM ˜ajaAEk(s$aAma,
+@maMs$ataAmBaAejak(re"NA è&ipaNAI%M gAAepya: i™ayaM ‰"í]"imavaAgAtaAM paitama, // 6 //
 TEXT 10.6.7
 baAlaƒah"sta‡a ivaicanvataI izAzAUna,
 yaä{"cC$yaA nand"gA{he"'s$ad"ntak(ma,
@@ -30215,17 +30145,12 @@ i‡agAvyaUtyantar"åu"maAna,
 caUNARyaAmaAs$a r"Ajaen‰"
 mah"d"As$aIÔad"àu"tama,p
 TEXT 10.6.15-17
-wRSaAmaA‡aAeƒadM"í)"AsyaM
-gANx"zAElastanaM r"AE‰M"
-‘ak(LNAARç&NAmaUDaRjama,
-@nDakU(pagABaIr"AºaM
-pauilanaAr"Aeh"BaISaNAma,
-baÜ"s$aetauBaujaAevaRx.~i„a
-zAUnyataAeyaoe"d"Aed"r"ma,
-s$anta‡as$au: sma taã"Iºya
-gAAepaA gAAepya: k(laevar"ma,
-paUva< tau taiªa:svainataiBa
-ªaô$tk(NARmastak(A:
+wRSaAmaA‡aAeƒadM"í)"AsyaM gANx"zAElastanaM r"AE‰M"
+‘ak(LNAARç&NAmaUDaRjama, // 15 //
+@nDakU(pagABaIr"AºaM pauilanaAr"Aeh"BaISaNAma,
+baÜ"s$aetauBaujaAevaRx.~i„a zAUnyataAeyaoe"d"Aed"r"ma, // 16 //
+s$anta‡as$au: sma taã"Iºya gAAepaA gAAepya: k(laevar"ma,
+paUva< tau taiªa:svainataiBa ªaô$tk(NARmastak(A: // 17 //
 TEXT 10.6.18
 baAlaM ca tasyaA or"is$a
 ‚(Lx"ntamaku(taAeBayama,
@@ -30247,41 +30172,27 @@ gAAepya: s$aMs$pa{í"s$ailalaA
 nyasyaAtmanyaTa baAlasya
 baIjanyaAs$amaku(vaRta
 TEXT 10.6.22-23
-@vyaAd"jaAe'x.~i„a maiNAmaAMstava jaAnvaTaAeè&
-yaÁaAe'cyauta: k(iq%taqM% jaQ&rM" h"yaAsya:
-ô$tke(zAvastvaäu"r" wRzA wnastau k(NQM&
-ivaSNAuBauRjaM mauKamauç&‚(ma wRìr": k(ma,
-cafr,"yaƒata: s$ah"gAd"Ae h"ir"r"stau paêAta,
-tvatpaAìRyaAeDaRnaur"s$aI maDauh"Ajanaê
-k(AeNAeSau zAÊÿ oç&gAAya opayauR"paen‰"s$a,
-taAºyaR: iºataAE h"laDar": pauç&Sa: s$amantaAta,
+@vyaAd"jaAe'x.~i„a maiNAmaAMstava jaAnvaTaAeè& yaÁaAe'cyauta: k(iq%taqM% jaQ&rM" h"yaAsya:
+ô$tke(zAvastvaäu"r" wRzA wnastau k(NQM& ivaSNAuBauRjaM mauKamauç&‚(ma wRìr": k(ma, // 22 //
+cafr,"yaƒata: s$ah"gAd"Ae h"ir"r"stau paêAta, tvatpaAìRyaAeDaRnaur"s$aI maDauh"Ajanaê
+k(AeNAeSau zAÊÿ oç&gAAya opayauR"paen‰"s$a, taAºyaR: iºataAE h"laDar": pauç&Sa: s$amantaAta, // 23 //
 TEXT 10.6.24
 win‰"yaAiNA ô$SaIke(zA:
 ‘aANAAªaAr"AyaNAAe'vatau
 ìetaã"IpapaitaiêÔaM
 manaAe yaAegAeìr"Ae'vatau
 TEXT 10.6.25-26
-pa{i´agABaRstau tae bauiÜ"ma,
-@AtmaAnaM BagAvaAna, par":
-‚(Lx"ntaM paAtau gAAeivand":
-zAyaAnaM paAtau maADava:
-˜ajantamavyaAãE"ku(NQ&
-@As$aInaM tvaAM i™aya: paita:
-BauÃaAnaM yaÁaBaufpaAtau
-s$avaRƒah"BayaÆÿr":
+pa{i´agABaRstau tae bauiÜ"ma, @AtmaAnaM BagAvaAna, par":
+‚(Lx"ntaM paAtau gAAeivand": zAyaAnaM paAtau maADava: // 25 //
+˜ajantamavyaAãE"ku(NQ& @As$aInaM tvaAM i™aya: paita:
+BauÃaAnaM yaÁaBaufpaAtau s$avaRƒah"BayaÆÿr": // 26 //
 TEXT 10.6.27-29
-x"Aik(nyaAe yaAtauDaAnyaê
-ku(SmaANx"A yae'BaRk(ƒah"A:
-BaUta‘aetaipazAAcaAê
-yaºar"ºaAeivanaAyak(A:
-k(Aeq%r"A re"vataI jyaeï"A
-paUtanaA maAta{k(Ad"ya:
-onmaAd"A yae ÷pasmaAr"A
-de"h"‘aANAein‰"yaåu"h":
-sva«aä{"í"A mah"AetpaAtaA
-va{Ü"A baAlaƒah"Aê yae
-s$avaeR nazyantau tae ivaSNAAer,"
-naAmaƒah"NABaIr"va:
+x"Aik(nyaAe yaAtauDaAnyaê ku(SmaANx"A yae'BaRk(ƒah"A:
+BaUta‘aetaipazAAcaAê yaºar"ºaAeivanaAyak(A: // 27 //
+k(Aeq%r"A re"vataI jyaeï"A paUtanaA maAta{k(Ad"ya:
+onmaAd"A yae ÷pasmaAr"A de"h"‘aANAein‰"yaåu"h": // 28 //
+sva«aä{"í"A mah"AetpaAtaA va{Ü"A baAlaƒah"Aê yae
+s$avaeR nazyantau tae ivaSNAAer," naAmaƒah"NABaIr"va: // 29 //
 TEXT 10.6.30
 ™aIzAuk( ovaAca
 wita ‘aNAyabaÜ"AiBar,"
@@ -30309,32 +30220,20 @@ DaUmaêAgAuç&s$aAEr"Ba:
 oitTata: k{(SNAinaBauRl(-
 s$apaâAh"tapaApmana:
 TEXT 10.6.35-36
-paUtanaA laAek(baAla£aI
-r"Aºas$aI ç&iDar"AzAnaA
-ijaGaAMs$ayaAipa h"r"yae
-stanaM d"ÔvaApa s$aÕ"itama,
-ikM( pauna: ™aÜ"yaA BaftyaA
-k{(SNAAya par"maAtmanae
-yacC$na, i‘ayatamaM ikM( nau
-r"l(AstanmaAtar"Ae yaTaA
+paUtanaA laAek(baAla£aI r"Aºas$aI ç&iDar"AzAnaA
+ijaGaAMs$ayaAipa h"r"yae stanaM d"ÔvaApa s$aÕ"itama, // 35 //
+ikM( pauna: ™aÜ"yaA BaftyaA k{(SNAAya par"maAtmanae
+yacC$na, i‘ayatamaM ikM( nau r"l(AstanmaAtar"Ae yaTaA // 36 //
 TEXT 10.6.37-38
-paà"YaAM Bal(ô$id"sTaAByaAM
-vanâAByaAM laAek(vaind"taE:
-@ËMÿ yasyaA: s$amaA‚(mya
-BagAvaAnaipa tatstanama,
-yaAtauDaAnyaipa s$aA svagARma,
-@vaApa jananaIgAitama,
-k{(SNABaul(stanaºaIr"A:
-ik(mau gAAvaAe'naumaAtar":
+paà"YaAM Bal(ô$id"sTaAByaAM vanâAByaAM laAek(vaind"taE:
+@ËMÿ yasyaA: s$amaA‚(mya BagAvaAnaipa tatstanama, // 37 //
+yaAtauDaAnyaipa s$aA svagARma, @vaApa jananaIgAitama,
+k{(SNABaul(stanaºaIr"A: ik(mau gAAvaAe'naumaAtar": // 38 //
 TEXT 10.6.39-40
-payaAMis$a yaAs$aAmaipabata,
-pau‡aµaeh"µautaAnyalama,
-BagAvaAnde"vak(Lpau‡a:
-kE(valyaAâiKala‘ad":
-taAs$aAmaivar"taM k{(SNAe
-ku(vaRtaInaAM s$autaeºaNAma,
-na pauna: k(lpatae r"Ajana,
-s$aMs$aAr"Ae'ÁaAnas$amBava:
+payaAMis$a yaAs$aAmaipabata, pau‡aµaeh"µautaAnyalama,
+BagAvaAnde"vak(Lpau‡a: kE(valyaAâiKala‘ad": // 39 //
+taAs$aAmaivar"taM k{(SNAe ku(vaRtaInaAM s$autaeºaNAma,
+na pauna: k(lpatae r"Ajana, s$aMs$aAr"Ae'ÁaAnas$amBava: // 40 //
 TEXT 10.6.41
 k(q%DaUmasya s$aAEr"Byama,
 @va„aAya ˜ajaAEk(s$a:
@@ -30356,14 +30255,10 @@ Za{NAuyaAcC)$Ü"yaA matyaAeR
 gAAeivande" laBatae r"itama,
 TEXT 10.7.1-2
 ™aIr"AjaAevaAca
-yaena yaenaAvataAre"NA
-BagAvaAna, h"ir"r"Iìr":
-k(r"Aeita k(NARr"myaAiNA
-manaAeÁaAina ca na: ‘aBaAe
-yacC+$NvataAe'paEtyar"itaivaRta{SNAA
-s$aÔvaM ca zAuÜ"Yatyaicare"NA pauMs$a:
-Bail(hR"r"AE tatpauç&Sae ca s$aKyaM
-tade"va h"ArM" vad" manyas$ae caeta,
+yaena yaenaAvataAre"NA BagAvaAna, h"ir"r"Iìr":
+k(r"Aeita k(NARr"myaAiNA manaAeÁaAina ca na: ‘aBaAe // 1 //
+yacC+$NvataAe'paEtyar"itaivaRta{SNAA s$aÔvaM ca zAuÜ"Yatyaicare"NA pauMs$a:
+Bail(hR"r"AE tatpauç&Sae ca s$aKyaM tade"va h"ArM" vad" manyas$ae caeta, // 2 //
 TEXT 10.7.3
 @TaAnyad"ipa k{(SNAsya
 taAek(Acair"tamaàu"tama,
@@ -30416,18 +30311,12 @@ bailaiBa: s$apair"cC$d"ma,
 iva‘aA ò"tvaAcaRyaAM ca‚u(r,"
 d"Dyaºataku(zAAmbauiBa:
 TEXT 10.7.13-15
-yae's$aUyaAna{tad"mBaeSaARihM"
-s$aAmaAnaivavaijaRtaA:
-na taeSaAM s$atyazAIlaAnaAma,
-@AizASaAe ivaP(laA: k{(taA:
-wita baAlak(maAd"Aya
-s$aAmagyaRjauç&paAk{(taE:
-jalaE: paiva‡aAESaiDaiBar,"
-@iBaiSacya iã"jaAeÔamaE:
-vaAcaiyatvaA svastyayanaM
-nand"gAAepa: s$amaAih"ta:
-ò"tvaA caAi¢aM iã"jaAitaBya:
-‘aAd"Ad"ªaM mah"AgAuNAma,
+yae's$aUyaAna{tad"mBaeSaARihM" s$aAmaAnaivavaijaRtaA:
+na taeSaAM s$atyazAIlaAnaAma, @AizASaAe ivaP(laA: k{(taA: // 13 //
+wita baAlak(maAd"Aya s$aAmagyaRjauç&paAk{(taE:
+jalaE: paiva‡aAESaiDaiBar," @iBaiSacya iã"jaAeÔamaE: // 14 //
+vaAcaiyatvaA svastyayanaM nand"gAAepa: s$amaAih"ta:
+ò"tvaA caAi¢aM iã"jaAitaBya: ‘aAd"Ad"ªaM mah"AgAuNAma, // 15 //
 TEXT 10.7.16
 gAAva: s$avaRgAuNAAepaetaA
 vaAs$a:›aƒaufmamaAilanaI:
@@ -30526,14 +30415,10 @@ svaAÆÿmaAr"Aepya BaAimanaI
 ‘aµautaM paAyayaAmaAs$a
 stanaM µaeh"pair"plautaA
 TEXT 10.7.35-36
-paIta‘aAyasya jananaI
-s$autasya ç&icar"ismatama,
-mauKaM laAlayataI r"AjaHa,
-ja{mBataAe d"ä{"zAe wd"ma
-KaM r"Aed"s$aI jyaAeitar"naIk(maAzAA:
-s$aUyaeRnäu"vai¶"ìs$anaAmbauDaI%Mê
-ã"IpaAªagAAMstaä,"äu"ih"ta|vaRnaAina
-BaUtaAina yaAina isTar"jaËÿmaAina
+paIta‘aAyasya jananaI s$autasya ç&icar"ismatama,
+mauKaM laAlayataI r"AjaHa, ja{mBataAe d"ä{"zAe wd"ma // 35 //
+KaM r"Aed"s$aI jyaAeitar"naIk(maAzAA: s$aUyaeRnäu"vai¶"ìs$anaAmbauDaI%Mê
+ã"IpaAªagAAMstaä,"äu"ih"ta|vaRnaAina BaUtaAina yaAina isTar"jaËÿmaAina // 36 //
 TEXT 10.7.37
 s$aA vaIºya ivaìM s$ah"s$aA
 r"Ajana, s$aÃaAtavaepaTau:
@@ -30575,14 +30460,10 @@ KyaAtaê Bauiva s$avaRd"A
 s$autaM mayaA s$aMs$k{(taM tae
 manyatae de"vak(Ls$autama,
 TEXT 10.8.8-9
-kM(s$a: paApamaita: s$aKyaM
-tava caAnak(äu"näu"Bae:
-de"vafyaA @í"maAe gABaAeR
-na ñI BaivataumahR"ita
-wita s$aiÂantayaHC_$tvaA
-de"vafyaA d"Air"k(Avaca:
-@ipa h"ntaA gAtaAzAÆÿs$a,
-taihR" taªaAe'nayaAe Bavaeta,
+kM(s$a: paApamaita: s$aKyaM tava caAnak(äu"näu"Bae:
+de"vafyaA @í"maAe gABaAeR na ñI BaivataumahR"ita // 8 //
+wita s$aiÂantayaHC_$tvaA de"vafyaA d"Air"k(Avaca:
+@ipa h"ntaA gAtaAzAÆÿs$a, taihR" taªaAe'nayaAe Bavaeta, // 9 //
 TEXT 10.8.10
 ™aInand" ovaAca
 @laiºataAe'ismana, r"h"is$a
@@ -30721,18 +30602,12 @@ s$a BagAvaAna, h"ir":
 vyaAd"ÔaAvyaAh"taEìyaR:
 ‚(Lx"AmanaujabaAlak(:
 TEXT 10.8.37-39
-s$aA ta‡a d"ä{"zAe ivaìM
-jagAtsTaAµau ca KaM id"zA:
-s$aAi‰"ã"IpaAibDaBaUgAAelaM
-s$avaAyva¢aInäu"taAr"k(ma
-jyaAeitaê‚M( jalaM taejaAe
-naBasvaAna, ivayade"va ca
-vaEk(Air"k(ANAIin‰"yaAiNA
-manaAe maA‡aA gAuNAAñya:
-Wtaiã"ica‡aM s$ah"jaIvak(AlasvaBaAvak(
-maARzAyailaËÿBaed"ma,
-s$aUnaAestanaAE vaIºya ivad"Air"taAsyae
-˜ajaM s$ah"AtmaAnamavaApa zAÆÿAma,
+s$aA ta‡a d"ä{"zAe ivaìM jagAtsTaAµau ca KaM id"zA:
+s$aAi‰"ã"IpaAibDaBaUgAAelaM s$avaAyva¢aInäu"taAr"k(ma // 37 //
+jyaAeitaê‚M( jalaM taejaAe naBasvaAna, ivayade"va ca
+vaEk(Air"k(ANAIin‰"yaAiNA manaAe maA‡aA gAuNAAñya: // 38 //
+Wtaiã"ica‡aM s$ah"jaIvak(AlasvaBaAvak( maARzAyailaËÿBaed"ma,
+s$aUnaAestanaAE vaIºya ivad"Air"taAsyae ˜ajaM s$ah"AtmaAnamavaApa zAÆÿAma, // 39 //
 TEXT 10.8.40
 ikM( sva«a Wtaäu"ta de"vamaAyaA
 ikM( vaA mad"IyaAe bata bauiÜ"maAeh":
@@ -30802,14 +30677,10 @@ s$ah"r"AmaAe vas$aMê‚e(
 taeSaAM ‘aIitaM svalaIlayaA
 TEXT 10.9.1-2
 ™aIzAuk( ovaAca
-Wk(d"A gA{h"d"As$aISau
-yazAAed"A nand"gAeih"naI
-k(maARntar"inayaul(As$au
-inamaRmanTa svayaM d"iDa
-yaAina yaAnaIh" gAItaAina
-taß"Alacair"taAina ca
-d"iDainamaRnTanae k(Alae
-smar"ntaI taAnyagAAyata
+Wk(d"A gA{h"d"As$aISau yazAAed"A nand"gAeih"naI
+k(maARntar"inayaul(As$au inamaRmanTa svayaM d"iDa // 1 // 
+yaAina yaAnaIh" gAItaAina taß"Alacair"taAina ca
+d"iDainamaRnTanae k(Alae smar"ntaI taAnyagAAyata // 2 //
 TEXT 10.9.3
 ºaAEmaM vaAs$a: pa{Tauk(iq%taqe% iba”ataI s$aU‡anaÜM"
 pau‡aµaeh"µautaku(cayaugAM jaAtak(mpaM ca s$au”aU:
@@ -30861,14 +30732,10 @@ ivaÁaAyaABaRk(vats$alaA
 wyaeSa ik(la taM baä,"DauM
 d"A°aAtaã"IyaRk(Aeivad"A
 TEXT 10.9.13-14
-na caAntanaR baih"yaRsya
-na paUva< naAipa caApar"ma,
-paUvaARparM" baih"êAntar,"
-jagAtaAe yaAe jagA»a ya:
-taM matvaAtmajamavyalM(
-matyaRilaËÿmaDaAeºajama,
-gAAeipak(AelaUKalae d"A°aA
-babanDa ‘aAk{(taM yaTaA
+na caAntanaR baih"yaRsya na paUva< naAipa caApar"ma,
+paUvaARparM" baih"êAntar," jagAtaAe yaAe jagA»a ya: // 13 //
+taM matvaAtmajamavyalM( matyaRilaËÿmaDaAeºajama,
+gAAeipak(AelaUKalae d"A°aA babanDa ‘aAk{(taM yaTaA // 14 //
 TEXT 10.9.15
 taÚ"Ama baDyamaAnasya
 svaABaRk(sya k{(taAgAs$a:
@@ -30922,14 +30789,10 @@ yaÔaiã"gAihR"taM k(maR
 yaena vaA de"vaSaeRstama:
 TEXT 10.10.2-3
 ™aIzAuk( ovaAca
-ç&‰"syaAnaucar"AE BaUtvaA
-s$auä{"æaAE Danad"AtmajaAE
-kE(laAs$aAepavanae r"myae
-mand"Aik(nyaAM mad"Aetk(q%AE
-vaAç&NAI%M maid"r"AM paItvaA
-mad"AGaUiNARtalaAecanaAE
-ñIjanaEr"naugAAyaià"zA,
-caer"tau: pauiSpatae vanae
+ç&‰"syaAnaucar"AE BaUtvaA s$auä{"æaAE Danad"AtmajaAE
+kE(laAs$aAepavanae r"myae mand"Aik(nyaAM mad"Aetk(q%AE // 2 //
+vaAç&NAI%M maid"r"AM paItvaA mad"AGaUiNARtalaAecanaAE
+ñIjanaEr"naugAAyaià"zA, caer"tau: pauiSpatae vanae // 3 //
 TEXT 10.10.4
 @nta: ‘aivazya gAËÿAyaAma,
 @mBaAejavanar"Aijaina
@@ -31012,18 +30875,12 @@ vaAç&NyaA ™aImad"AnDayaAe:
 tamaAemadM" h"ir"SyaAima
 ñENAyaAer"ijataAtmanaAe:
 TEXT 10.10.20-22
-yaid"maAE laAek(paAlasya
-pau‡aAE BaUtvaA tama:plautaAE
-na ivavaAs$as$amaAtmaAnaM
-ivajaAnaIta: s$auäu"maRd"AE
-@taAe'hR"ta: sTaAvar"taAM
-syaAtaAM naEvaM yaTaA pauna:
-sma{ita: syaAnmat‘as$aAde"na
-ta‡aAipa mad"nauƒah"Ata,
-vaAs$aude"vasya s$aAiªaDyaM
-labDvaA id"vyazAr"cC$tae
-va{Ôae svalaAeRk(taAM BaUyaAe
-labDaBal(L BaivaSyata:
+yaid"maAE laAek(paAlasya pau‡aAE BaUtvaA tama:plautaAE
+na ivavaAs$as$amaAtmaAnaM ivajaAnaIta: s$auäu"maRd"AE // 20 //
+@taAe'hR"ta: sTaAvar"taAM syaAtaAM naEvaM yaTaA pauna:
+sma{ita: syaAnmat‘as$aAde"na ta‡aAipa mad"nauƒah"Ata, // 21 //
+vaAs$aude"vasya s$aAiªaDyaM labDvaA id"vyazAr"cC$tae
+va{Ôae svalaAeRk(taAM BaUyaAe labDaBal(L BaivaSyata: // 22 //
 TEXT 10.10.23
 ™aIzAuk( ovaAca
 WvamauftvaA s$a de"vaiSaRr,"
@@ -31061,14 +30918,10 @@ tvamaAâ: pauç&Sa: par":
 vyal(Avyal(imadM" ivaìM
 è&paM tae “aAöNAA ivaäu":
 TEXT 10.10.30-31
-tvamaek(: s$avaRBaUtaAnaAM
-de"h"AsvaAtmaein‰"yaeìr":
-tvamaeva k(AlaAe BagAvaAna,
-ivaSNAur"vyaya wRìr":
-tvaM mah"Ana, ‘ak{(ita: s$aUºmaA
-r"ja:s$aÔvatamaAemayaI
-tvamaeva pauç&SaAe'Dyaºa:
-s$avaRºae‡aivak(Ar"ivata,
+tvamaek(: s$avaRBaUtaAnaAM de"h"AsvaAtmaein‰"yaeìr":
+tvamaeva k(AlaAe BagAvaAna, ivaSNAur"vyaya wRìr": // 30 //
+tvaM mah"Ana, ‘ak{(ita: s$aUºmaA r"ja:s$aÔvatamaAemayaI
+tvamaeva pauç&SaAe'Dyaºa: s$avaRºae‡aivak(Ar"ivata, // 31 //
 TEXT 10.10.32
 gA{÷maANAEstvamaƒaA÷Ae
 ivak(ArE": ‘aAk{(taEgAuRNAE:
@@ -31080,14 +30933,10 @@ vaAs$aude"vaAya vaeDas$ae
 @AtmaâAetagAuNAEzC$ªamaih"°
 ae “aöNAe nama:
 TEXT 10.10.34-35
-yasyaAvataAr"A ÁaAyantae
-zAr"Ire"SvazAr"Iir"NA:
-taEstaEr"taulyaAitazAyaEr,"
-vaIyaE=&deR"ih"Svas$aËÿtaE:
-s$a BavaAna, s$avaRlaAek(sya
-BavaAya ivaBavaAya ca
-@vataINAAe<'zABaAgAena
-s$aAm‘ataM paitar"AizASaAma,
+yasyaAvataAr"A ÁaAyantae zAr"Ire"SvazAr"Iir"NA:
+taEstaEr"taulyaAitazAyaEr," vaIyaE=&deR"ih"Svas$aËÿtaE: // 34 //
+s$a BavaAna, s$avaRlaAek(sya BavaAya ivaBavaAya ca
+@vataINAAe<'zABaAgAena s$aAm‘ataM paitar"AizASaAma, // 35 //
 TEXT 10.10.36
 nama: par"mak(lyaANA
 nama: par"mamaËÿla
@@ -31282,14 +31131,10 @@ s$aADau s$aAiDvaita vaAid"na:
 ˜ajaAna, svaAna, svaAna, s$amaAyaujya
 yayaU è&X#pair"cC$d"A:
 TEXT 10.11.31-32
-va{Ü"Ana, baAlaAna, iñyaAe r"Ajana,
-s$avaAeRpak(r"NAAina ca
-@na:svaAr"Aepya gAAepaAlaA
-yaÔaA @AÔazAr"As$anaA:
-gAAeDanaAina paur"s$k{(tya
-Za{"ËÿANyaApaUyaR s$avaRta:
-taUyaRGaAeSaeNA mah"taA
-yayau: s$ah"paur"Aeih"taA:
+va{Ü"Ana, baAlaAna, iñyaAe r"Ajana, s$avaAeRpak(r"NAAina ca
+@na:svaAr"Aepya gAAepaAlaA yaÔaA @AÔazAr"As$anaA: // 31 //
+gAAeDanaAina paur"s$k{(tya Za{"ËÿANyaApaUyaR s$avaRta:
+taUyaRGaAeSaeNA mah"taA yayau: s$ah"paur"Aeih"taA: // 32 //
 TEXT 10.11.33
 gAAepyaAe è&X#r"TaA naU¥aku(
 caku(Çÿmak(Antaya:
@@ -31321,14 +31166,10 @@ s$ah" gAAepaAlad"Ar"kE(:
 caAr"yaAmaAs$atauvaRts$aAna,
 naAnaA‚(Lx"Apair"cC$d"AE
 TEXT 10.11.39-40
-¸(icaã"Ad"yataAe vaeNAuM
-ºaepaNAE: iºapata: ¸(icata,
-¸(icatpaAdE": ik(iÆÿNAIiBa:
-¸(icatk{(i‡amagAAeva{SaE:
-va{SaAyamaANAAE nadR"ntaAE
-yauyauDaAtae par"s$par"ma,
-@nauk{(tya ç&taEjaRntaUMzA,
-caer"tau: ‘aAk{(taAE yaTaA
+¸(icaã"Ad"yataAe vaeNAuM ºaepaNAE: iºapata: ¸(icata,
+¸(icatpaAdE": ik(iÆÿNAIiBa: ¸(icatk{(i‡amagAAeva{SaE: // 39 //
+va{SaAyamaANAAE nadR"ntaAE yauyauDaAtae par"s$par"ma,
+@nauk{(tya ç&taEjaRntaUMzA, caer"tau: ‘aAk{(taAE yaTaA // 40 //
 TEXT 10.11.41
 k(d"AicaâmaunaAtaIre"
 vats$aAMêAr"yataAe: svakE(:
@@ -31457,26 +31298,16 @@ vanazAAeBaeºaNAAya tama,
 @hM" paUvaRmahM" paUvaRma,
 wita s$aMs$pa{zya re"imare"
 TEXT 10.12.7-11
-ke(icaãe"NAUna, vaAd"yantaAe
-DmaAnta: Za{"ËÿAiNA ke(cana
-ke(icaà{"ËEÿ: ‘agAAyanta:
-kU(janta: k(Aeik(laE: pare"
-ivacC$AyaAiBa: ‘aDaAvantaAe
-gAcC$nta: s$aADauhM"s$akE(:
-bakE(ç&paivazAntaê
-na{tyantaê k(laAipaiBa:
-ivak(SaRnta: k(LzAbaAlaAna,
-@Ar"Aeh"ntaê taEåuR"maAna,
-ivaku(vaRntaê taE: s$aAkM(
-plavantaê palaAizASau
-s$aAkM( BaekE(ivaRlaÎÿnta:
-s$air"ta: ›avas$amplautaA:
-ivah"s$anta: ‘aitacC$AyaA:
-zApantaê ‘aitasvanaAna
-wtTaM s$ataAM “aös$auKaAnauBaUtyaA
-d"AsyaM gAtaAnaAM par"dE"vataena
-maAyaAi™ataAnaAM nar"d"Ar"ke(NA
-s$aAkM( ivajaoeú": k{(tapauNyapauÃaA:
+ke(icaãe"NAUna, vaAd"yantaAe DmaAnta: Za{"ËÿAiNA ke(cana
+ke(icaà{"ËEÿ: ‘agAAyanta: kU(janta: k(Aeik(laE: pare" // 7 //
+ivacC$AyaAiBa: ‘aDaAvantaAe gAcC$nta: s$aADauhM"s$akE(:
+bakE(ç&paivazAntaê na{tyantaê k(laAipaiBa: // 8 //
+ivak(SaRnta: k(LzAbaAlaAna, @Ar"Aeh"ntaê taEåuR"maAna,
+ivaku(vaRntaê taE: s$aAkM( plavantaê palaAizASau // 9 //
+s$aAkM( BaekE(ivaRlaÎÿnta: s$air"ta: ›avas$amplautaA:
+ivah"s$anta: ‘aitacC$AyaA: zApantaê ‘aitasvanaAna // 10 //
+wtTaM s$ataAM “aös$auKaAnauBaUtyaA d"AsyaM gAtaAnaAM par"dE"vataena
+maAyaAi™ataAnaAM nar"d"Ar"ke(NA s$aAkM( ivajaoeú": k{(tapauNyapauÃaA: // 11 //
 TEXT 10.12.12
 yatpaAd"paAMs$aubaRò"janmak{(cC)$taAe
 Da{taAtmaiBayaAeRigAiBar"pyalaBya:
@@ -31877,14 +31708,10 @@ pazyataAe'jasya tatºaNAAta,
 vyaä{"zyanta GanazyaAmaA:
 paItak(AEzAeyavaAs$as$a:
 TEXT 10.13.47-48
-catauBauRjaA: zAÊÿca‚(-
-gAd"Ar"AjaIvapaANAya:
-ik(r"Iiq%na: ku(Nx"ilanaAe
-h"Air"NAAe vanamaAilana:
-™aIvats$aAËÿd"d"Aer"¥ak(
-mbauk(ÆÿNApaANAya:
-naUpaurE": k(q%kE(BaARtaA:
-k(iq%s$aU‡aAÌÿlaIyakE(:
+catauBauRjaA: zAÊÿca‚(- gAd"Ar"AjaIvapaANAya:
+ik(r"Iiq%na: ku(Nx"ilanaAe h"Air"NAAe vanamaAilana: // 47 //
+™aIvats$aAËÿd"d"Aer"¥ak( mbauk(ÆÿNApaANAya:
+naUpaurE": k(q%kE(BaARtaA: k(iq%s$aU‡aAÌÿlaIyakE(: // 48 //
 TEXT 10.13.49
 @Ax.~i„amastak(maApaUNAARs$a,
 taulas$aInavad"AmaiBa:

@@ -23,7 +23,7 @@ public class CombineFiles {
 	//output file eg. canto1.html
 	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto";
 	//location where all the individual SB html files are stored. This was output of Cleanuphtml.java
-	public static final String INPUT_DIR = "C:\\dagrawal\\workspace\\SB\\input\\";
+	public static final String INPUT_DIR = "C:\\temp\\";
 	public CombineFiles(){
 		for(int i=1;i<=10;i++){
 			combine(i);
@@ -99,12 +99,14 @@ public class CombineFiles {
 		try {
 			in = new BufferedReader(new FileReader(filePath));
 			while ((line = in.readLine()) != null) {
-				//exclude line starting with <A NAME= and sanskrit transliterian
-				if(!line.startsWith("<A NAME") && !line.startsWith("<div class=\"Verse-Text\">") 
-						&& !line.startsWith("<div class=\"One-line-verse\">") && !line.startsWith("<div class=\"Uvaca-line\">")){
+				//exclude line starting with '<A NAME=', TEXT number and sanskrit transliterian
+				if(!line.contains("<A NAME") && !line.startsWith("<div class=\"Textnum\">") 
+						&& !line.startsWith("<div class=\"One-line-verse\">") && !line.startsWith("<div class=\"Uvaca-line\">")
+						&& !line.startsWith("<div class=\"Prose-Verse\">") && !line.contains("<div class=\"Verse-Text\">")){
 					contents.append(line);
 					contents.append("\n");
-				}
+				}//else if((line.contains("<A NAME") && !line.startsWith("<A NAME")) || (line.contains("<div class=\"Verse-Text\">") && !line.startsWith("<div class=\"Verse-Text\">")))
+				//	logger.debug("Line ignored: "+line);
 			}
 		} catch (FileNotFoundException e) {
 			logger.error(e.getMessage()+" "+filePath);

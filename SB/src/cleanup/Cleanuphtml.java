@@ -10,6 +10,7 @@ import java.io.FileFilter;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -84,7 +85,7 @@ public class Cleanuphtml {
 	 * @param outDir - directory where the output files will be saved.
 	 * @throws IOException
 	 */
-	public void cleanUp(File inFile, String outDir) throws IOException{
+	public String cleanUp(File inFile, String outDir) throws IOException{
 		BufferedReader in = null;
 		boolean actualText = false;
 		FileOutputStream fout = null;
@@ -129,8 +130,14 @@ public class Cleanuphtml {
 						if(sanskritVerses == null){
 							logger.error("Sanskrit verse not found for "+verseNumber+" in file "+inFile.getName());
 						}else{
+							int canto = Integer.parseInt(verseNumber.split("\\.")[0]);
+							int chapter = Integer.parseInt(verseNumber.split("\\.")[1]);
 							for(String sanskritVerse : sanskritVerses){
-								ps.println("<div class=\"Devanagari\">"+sanskritVerse+"</div>");
+								//10th canto 2nd chap onwards use different font for sanskrit
+								if(canto == 10 && chapter > 1)
+									ps.println("<div class=\"dev-rm\">"+sanskritVerse+"</div>");
+								else
+									ps.println("<div class=\"Devanagari\">"+sanskritVerse+"</div>");
 							}
 						}
 					}
@@ -148,17 +155,30 @@ public class Cleanuphtml {
 			tmpFile.renameTo(outFile);
 		//}else if(title.contains("hagavatam") || title.contains("SB") || title.contains("S.B")){
 		}else if(title.matches(".+hagavatam.*rabhupada.+ooks.*")){
-			logger.warn("Input file "+inFile.getName()+" has "+title);
+			//logger.warn("Input file "+inFile.getName()+" has "+title);
 		}
 		tmpFile.delete();
+		return verseNumber;
+	}
+	private static void copyFile(File input, File output) throws IOException{
+	    FileReader in = new FileReader(input);
+	    FileWriter out = new FileWriter(output);
+	    int c;
+	    while ((c = in.read()) != -1)
+	      out.write(c);
+	    in.close();
+	    out.close();
 	}
 	public static void main(String[] args) {
+		//java -cp .;C:\dagrawal\workspace\SB\lib\log4j-1.2.9.jar cleanup.Cleanuphtml C:\dagrawal\personal\httrac\SB\prabhupadabooks.com\ C:\temp\
 		Cleanuphtml cleanuphtml = new Cleanuphtml();
 		cleanuphtml.setPattern(".html");
 		File[] files = cleanuphtml.readFiles(args[0]); 
 		for(File inFile : files){
 			try {
-				cleanuphtml.cleanUp(inFile, args[1]);
+				String fileName = cleanuphtml.cleanUp(inFile, args[1]);
+				copyFile(inFile, new File("C:\\dagrawal\\workspace\\SB\\input\\"+fileName+".html"));
+				
 			} catch (IOException e) {
 				logger.error(e.getMessage());
 			}
