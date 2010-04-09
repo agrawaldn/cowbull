@@ -1,6 +1,9 @@
 /**
  * Created by: dagrawal on Aug 19, 2009
  * Email: dev.agrawal@gmail.com
+ * 
+ * this program combines all individual verse files into single html file 
+ * for each canto from 1 to 10. to supress english transliterian see method readContents()
  */
 package combine;
 
@@ -99,10 +102,12 @@ public class CombineFiles {
 		try {
 			in = new BufferedReader(new FileReader(filePath));
 			while ((line = in.readLine()) != null) {
-				//exclude line starting with '<A NAME=', TEXT number and sanskrit transliterian
-				if(!line.contains("<A NAME") && !line.startsWith("<div class=\"Textnum\">") 
-						&& !line.startsWith("<div class=\"One-line-verse\">") && !line.startsWith("<div class=\"Uvaca-line\">")
-						&& !line.startsWith("<div class=\"Prose-Verse\">") && !line.contains("<div class=\"Verse-Text\">")){
+				if(!line.contains("<A NAME") //exclude line starting with '<A NAME='; no harm in printing this. however exlude this to reduce the size of html files
+						&& !line.startsWith("<div class=\"Textnum\">") // don't print TEXT number for each verse 
+						//comment out 2 lines below to print english transliterian of sanskrit verse. 
+//						&& !line.startsWith("<div class=\"One-line-verse\">") && !line.startsWith("<div class=\"Uvaca-line\">")
+//						&& !line.startsWith("<div class=\"Prose-Verse\">") && !line.contains("<div class=\"Verse-Text\">")
+						){
 					contents.append(line);
 					contents.append("\n");
 				}//else if((line.contains("<A NAME") && !line.startsWith("<A NAME")) || (line.contains("<div class=\"Verse-Text\">") && !line.startsWith("<div class=\"Verse-Text\">")))
