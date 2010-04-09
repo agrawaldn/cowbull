@@ -1,6 +1,9 @@
 /**
  * Created by: dagrawal on Nov 20, 2009
  * Email: dagrawal@research.att.com
+ * 
+ * this program reads text file and prints html for cantos 10-part2 to 12.
+ * To disablr english transliterian go to method printVerse()
  */
 package convert;
 
@@ -22,7 +25,7 @@ public class Convert10To12Cantos {
 	public static final String INPUT_FILE = "C:\\dagrawal\\workspace\\SB\\text\\canto10_part2.txt";
 	public static final String OUTPUT_FILE = "C:\\dagrawal\\workspace\\SB\\output\\canto10_part2.html";
 	boolean divTagOpen = false;
-	
+	public static final int MAX_LENGTH_FOR_COLAPSING_DEVNAGRI = 50;
 	public Convert10To12Cantos(){
 		BufferedReader in = null;
 		
@@ -173,6 +176,13 @@ public class Convert10To12Cantos {
 			}
 		}
 	}
+	/**
+	 * 
+	 * returns true when a short line is not a quoted sanskrit verse, 
+	 * but just a short line in english
+	 * @param line
+	 * @return
+	 */
 	private boolean shortLineInEnglish(String line){
 		boolean shortLineInEnglish = false;
 		if(line.matches(".+\\:")||
@@ -195,8 +205,12 @@ public class Convert10To12Cantos {
 		}
 		return shortLineInEnglish;
 	}
+	/**
+	 * 
+	 * prints both english transliterian and devanagri 
+	 */  
 	private void printVerse(List<String> verse,PrintStream out, String text){
-		Map<Integer,String> lineNoVerseMap = new HashMap<Integer,String>();
+//		Map<Integer,String> lineNoVerseMap = new HashMap<Integer,String>();
 		int lines = verse.size();
 		if(lines%2>0){
 			logger.error("Number of lines in Shloka "+text+" = " +lines);
@@ -211,24 +225,70 @@ public class Convert10To12Cantos {
 //				lineNoVerseMap.put(j*linesInEachVerse-1, ""+(Integer.parseInt(startEndPair[0])+(j-1)));
 //			}
 //		}else{
-			lineNoVerseMap.put(lines/2-1, verseNo);
+//			lineNoVerseMap.put(lines/2-1, verseNo);
 //		}
-		for(int i=0;i<lines;i++){
-			if(i<lines/2){
-				out.print("<div class=\"dev-rm\">");
-				out.print(verse.get(i));
-				if(lineNoVerseMap.containsKey(i)){
-					out.print(" // "+lineNoVerseMap.get(i)+" //");	
-				}
-				out.println("</div>");
+		//List<String> verseDevnagri = verse.subList(0, lines/2);
+		List<String> verseDevnagri = verse.subList(0, lines/2);
+		if(canBeColapsed(verseDevnagri)){
+			verseDevnagri = collapseVerse(verse.subList(0, lines/2),text);
+		}
+		//Comment this loop to skip printing devnagri for verse
+		for(int i=0;i<verseDevnagri.size();i++){
+			out.print("<div class=\"dev-rm\">");
+			out.print(verseDevnagri.get(i));
+			if(i == verseDevnagri.size()-1){//print shloka number in the end of last line
+				out.print(" // "+verseNo+" //");	
 			}
-//			else{
-//				out.print("<div class=\"Verse-Text\">");
-//				out.print(verse.get(i));
-//				out.println("</div>");
-//			}
+			out.println("</div>");
+		}
+		//Comment this loop to skip printing english transliterian for verse
+		for(int j=lines/2;j<lines;j++){
+			out.print("<div class=\"Verse-Text\">");
+			out.print(verse.get(j));
+			out.println("</div>");
 
 		}
+	}
+	private boolean canBeColapsed(List<String> verseLineList){
+		boolean canBeColapsed = false;
+		int maxLength = 0;
+		for(String line : verseLineList){
+			if(line.length() > maxLength)
+				maxLength = line.length();
+		}
+		if(maxLength <= MAX_LENGTH_FOR_COLAPSING_DEVNAGRI)
+			canBeColapsed = true;
+		return canBeColapsed;
+	}
+	private List<String> collapseVerse(List<String> verseLineList, String verse){
+		logger.debug("colapsing "+verse);
+		List<String> collapsedVerseLineList = new ArrayList<String>();
+		switch(verseLineList.size()){
+		case 4: 
+			collapsedVerseLineList.add(verseLineList.get(0)+" "+verseLineList.get(1));
+			collapsedVerseLineList.add(verseLineList.get(2)+" "+verseLineList.get(3));
+			break;
+		case 5:
+			collapsedVerseLineList.add(verseLineList.get(0));
+			collapsedVerseLineList.add(verseLineList.get(1)+" "+verseLineList.get(2));
+			collapsedVerseLineList.add(verseLineList.get(3)+" "+verseLineList.get(4));			
+			break;
+		case 6:
+			collapsedVerseLineList.add(verseLineList.get(0)+" "+verseLineList.get(1));
+			collapsedVerseLineList.add(verseLineList.get(2)+" "+verseLineList.get(3));
+			collapsedVerseLineList.add(verseLineList.get(4)+" "+verseLineList.get(5));
+			break;
+		case 7:
+			collapsedVerseLineList.add(verseLineList.get(0));
+			collapsedVerseLineList.add(verseLineList.get(1)+" "+verseLineList.get(2));
+			collapsedVerseLineList.add(verseLineList.get(3)+" "+verseLineList.get(4));
+			collapsedVerseLineList.add(verseLineList.get(5)+" "+verseLineList.get(6));
+			break;
+		default:
+			logger.error("verse "+verse+" has "+verseLineList.size()+" lines.");
+			break;
+		}
+		return collapsedVerseLineList;
 	}
 	private String escapeHTMLCharacters(String text){
 		String escapedText = null;

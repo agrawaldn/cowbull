@@ -15,6 +15,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import convert.Convert10To12Cantos;
+
 public class FormatSanskritVerse {
 
 	Logger logger = Logger.getLogger(getClass());
@@ -107,7 +109,7 @@ public class FormatSanskritVerse {
 			if(line.length() > maxLength)
 				maxLength = line.length();
 		}
-		if(maxLength <= 40)
+		if(maxLength <= Convert10To12Cantos.MAX_LENGTH_FOR_COLAPSING_DEVNAGRI)
 			canBeColapsed = true;
 		return canBeColapsed;
 	}
